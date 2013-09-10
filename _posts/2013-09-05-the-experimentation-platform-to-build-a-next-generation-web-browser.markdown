@@ -2,7 +2,7 @@
 layout: post
 title:  "The Experimentation Platform to Build a Next Generation Web Browser"
 date:   2013-09-05 15:19:50
-categories: exobrowser update release
+categories: update
 ---
 
 From a user perspective, most of what today's web-browsers are dates back to the introduction of the tabbed browsing in 1997 ([Wikipedia: Tab (GUI)](http://en.wikipedia.org/wiki/Tab_%28GUI%29)). At this time, we restarted our computers, the closest thing to a smartphone we had was the Apple Newton, and we were "online" only for a couple of minutes through dial-up connections. 
