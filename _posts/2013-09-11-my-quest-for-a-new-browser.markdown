@@ -40,7 +40,7 @@ I had to come up with a trick that would speed up the process of building a work
 
 Web technologies (I mean HTML/JS/CSS here) have many drawbacks, but there's something no one can deny them, they're just great for rapid prototyping. Or, when you're working on a browser, it just happens that you have at your disposal a Layout Engine (Webkit/Blink) and a Javascript Engine (v8). So why not *bootstrap* the browser with these engines and build it out of its own available technologies instead of C++?
 
-That is what I set myself out to do. The projcet was not going to be easy, but I knew that it was orders of magnitudes simpler than any other path I could follow. That's how I came up with the ExoBrowser.
+That is what I set myself out to do. The project was not going to be easy, but I knew that it was orders of magnitudes simpler than any other path I could follow. That's how I came up with the ExoBrowser.
 
 ### The ExoBrowser: Chromium Content API exposed in JS
 
