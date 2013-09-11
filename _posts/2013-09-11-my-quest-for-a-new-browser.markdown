@@ -12,7 +12,7 @@ Yet, digging the problem, I realized that I ended up frustrated in a couple of s
 
 I use the web a lot. My day is spent between my browser and xterm. I use xterm to code and I use the browser for absolutely everything else. Email, documents, bug tracking, news, games, videos, you name it.
 
-Or, the browser base user interface as we know it today (tabbed navigation) was designed at a time (97) when we restarted our computer everyday and we would spend only a couple of minutes "online" through dial-up connections.
+However, the browser base user interface as we know it today (tabbed navigation) was designed at a time (97) when we restarted our computer everyday and we would spend only a couple of minutes "online" through dial-up connections.
 
 ### Why would we need a new Browser?
 
@@ -38,7 +38,7 @@ I had to come up with a trick that would speed up the process of building a work
 
 ### The Solution
 
-Web technologies (I mean HTML/JS/CSS here) have many drawbacks, but there's something no one can deny them, they're just great for rapid prototyping. Or, when you're working on a browser, it just happens that you have at your disposal a Layout Engine (Webkit/Blink) and a Javascript Engine (v8). So why not *bootstrap* the browser with these engines and build it out of its own available technologies instead of C++?
+Web technologies (I mean HTML/JS/CSS here) have many drawbacks, but there's something we can't deny them, they're just great for rapid prototyping. Luckily, when you're working on a browser, it just happens that you have at your disposal a Layout Engine (Webkit/Blink) and a Javascript Engine (v8). So why not *bootstrap* the browser with these engines and build it out of its own available technologies instead of C++?
 
 That is what I set myself out to do. The project was not going to be easy, but I knew that it was orders of magnitudes simpler than any other path I could follow. That's how I came up with the ExoBrowser.
 
@@ -52,7 +52,7 @@ Next thing you need, is a native container to display those WebContents and a cr
 
 From there, I just needed a way to serve web pages from my v8 context in order to point these "controls" WebContents to some local pages I could communicate with. That was what was needed for me to build my UI entirely in HTML.
 
-Convenently enough this technology is already available: it's exactly what Node.JS is. So instead of embedding a v8 Context, I simply embedded a Node.JS Context in my extra thread. I even got package & library management as well as  filesystem and netoworking APIs for free.
+Conveniently enough this technology is already available: it's exactly what Node.JS is. So instead of embedding a v8 Context, I simply embedded a Node.JS Context in my extra thread. I even got package & library management as well as  filesystem and netoworking APIs for free.
 
 Here's a diagram of the ExoBrowser architecture compared to the Chromium architecture:
 
@@ -95,5 +95,7 @@ I'm very pleased with the ExoBrowser and how it has let me build a browser using
 Of course, I'm nowhere close to having a product (though I already use the Experiment based on the ExoBrowser for most of my activities online, such as writing this post). My quest is only beginning, and I definitely want to experiment with many more concepts (Additional navigation models, Synchronized Sessions, etc...)
 
 The goal of this post is simply to let you know about my experience building it. Eventually, I also hope I can get you excited about building a new browser, or more precisly, about building new browsers.
+
+**Thanks** to Gabriel Hubert for reading drafts of this.
 
 *-stan ([@spolu](https://twitter.com/spolu))*
