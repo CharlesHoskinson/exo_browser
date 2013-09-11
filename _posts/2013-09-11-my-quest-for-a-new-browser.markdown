@@ -30,7 +30,7 @@ I spent some time last year tinkering with a few side projects (a tiled window m
 
 Where to start when you want to build a browser and there's so much you want to experiment with?
 
-The `chrome/` subdirectory of the chromium project (all that makes up the Google Chrome experience: tabs, settings, sync, omnibox) is made up of 5,343 C++ implementation files, adding up to 1,449,451 lines of C++ code (as of 2013/09/11). It's hardly tractable by one person, and hints to the fact that it's probably impossible for a one guy to modify it alone to come up with a profoundly different experience.
+The `chrome/` subdirectory of the chromium project (all that makes up the Google Chrome experience: tabs, settings, sync, omnibox) is made up of 5,343 C++ implementation files, adding up to 1,449,451 lines of C++ code (as of 2013/09/11). It's hardly tractable by one person, and hints to the fact that it's probably impossible for one guy to modify it alone to come up with a profoundly different experience.
 
 Even if you start directly from the Content API (Chromium internal API to display Web Contents), there's a good chance you'll have to write 10,000s lines of platform-specific code to come up with anything interesting.
 
