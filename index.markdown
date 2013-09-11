@@ -8,7 +8,7 @@ The ExoBrowser is a **scriptable platform** designed to ease the experimentation
 
 The ExoBrowser exposes its API (parts of the Chromium Content API + a Simple View Model) in Javascript and enables the implementation of a fully functional browser entirely out of it (as a Javascript/HTML/CSS app)
 
-See [The Experimentation Platform to Build a Next Generation Browser]({{ site.baseurl }} /2013/09/05/the-experimentation-platform-to-build-a-next-generation-web-browser.html)
+See [The Experimentation Platform to Build a Next Generation Browser]({{ site.baseurl }}/2013/09/05/the-experimentation-platform-to-build-a-next-generation-web-browser.html)
 
 ### Exp.1: Stacked Navigation
 
