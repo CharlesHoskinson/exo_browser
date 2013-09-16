@@ -38,7 +38,7 @@ You can **dump** the Javascript code of the experiment locally, **modify** it, a
 $ ./ExoBrowser.app/Contents/MacOS/ExoBrowser --dump-app
 $ cd app/
 ...
-$ open ExoBrowser.app --args --raw app/index.js
+$ ./ExoBrowser.app/Contents/MacOS/ExoBrowser --raw app/index.js 
 {% endhighlight %}
 
 *On Linux*:
