@@ -10,20 +10,6 @@ The ExoBrowser exposes its API (parts of the Chromium Content API + a Simple Vie
 
 See [The Experimentation Platform to Build a Next Generation Browser]({{ site.baseurl }}/2013/09/05/the-experimentation-platform-to-build-a-next-generation-web-browser.html)
 
-### Exp.1: Stacked Navigation
-
-Today we release a **first experiment** towards a new Browser. This release experiments with the *Stacked Navigation*:
-
-```
-- Vertical list of Tabs / LRU Ordered
-- Pin / Unpin Tabs at the top of the Stack
-- Search in opened Tabs
-```
-
-Based on the ExoBrowser platform, it is entirely written in Javascript.
-
-[Quick Intro to the Experiment (slides)](http://slid.es/stanislaspolu/exo_browser-exp1)
-
 ### Downloads
 
 - *OSX [ia32]* [exo_browser-v0.1.exp1-osx-ia32.zip](http://bit.ly/1ec5MYP) (32,7 MB)
