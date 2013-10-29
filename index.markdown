@@ -21,8 +21,8 @@ See the [Downloads]({{ site.baseurl }}/downloads) page for Known Issues.
 
 The ExoBrowser comes with a basic shell to showcases its functionalities. You can **dump** the Javascript code of the Shell locally, **modify** it, and **interpret** it back directly with the ExoBrowser executable.
 
-*On Mac OS X*: The `shell` directory is located under `ExoBrowser.app/Contents/Resources/shell/`.
-*On Linux*: The `shell` directory comes bundled next to the executable.
+- *On Mac OS X*: The `shell` directory is located under `ExoBrowser.app/Contents/Resources/shell/`.
+- *On Linux*: The `shell` directory comes bundled next to the executable.
 
 See the [ExoBrowser JS API Specification](https://github.com/spolu/exo_browser/blob/master/API.md)
 
