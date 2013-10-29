@@ -12,28 +12,17 @@ See [The Experimentation Platform to Build a Next Generation Browser]({{ site.ba
 
 ### Downloads
 
-- *OSX [ia32]* [exo_browser-v0.1.exp1-osx-ia32.zip](http://bit.ly/1ec5MYP) (32,7 MB)
-- *Linux [x64]* [exo_browser-v0.1.exp1-linux-x64.tar.gz](http://bit.ly/15g43Mv) (122,0 MB)
+- *OSX [ia32]* [exo_browser-v0.3.1599-osx-ia32.zip](http://bit.ly/19ODRsZ) (32,7 MB)
+- *Linux [x64]* [exo_browser-v0.3.1599-linux-x64.tar.gz](http://bit.ly/17pvJls) (122,0 MB)
+
+See the [Downloads]({{ site.baseurl }}/downloads) page for Known Issues.
 
 ### Hacking with the ExoBrowser
 
-You can **dump** the Javascript code of the experiment locally, **modify** it, and **interpret** it directly with the ExoBrowser executable.
+The ExoBrowser comes with a basic shell to showcases its functionalities. You can **dump** the Javascript code of the Shell locally, **modify** it, and **interpret** it back directly with the ExoBrowser executable.
 
-*On Mac OS X*:
-{% highlight bash %}
-$ ./ExoBrowser.app/Contents/MacOS/ExoBrowser --dump-app
-$ cd app/
-...
-$ ./ExoBrowser.app/Contents/MacOS/ExoBrowser --raw app/index.js 
-{% endhighlight %}
-
-*On Linux*:
-{% highlight bash %}
-$ ./exo_browser --dump-app
-$ cd app/
-...
-$ ./exo_browser --raw app/index.js
-{% endhighlight %}
+*On Mac OS X*: The `shell` directory is located under `ExoBrowser.app/Contents/Resources/shell/`.
+*On Linux*: The `shell` directory comes bundled next to the executable.
 
 See the [ExoBrowser JS API Specification](https://github.com/spolu/exo_browser/blob/master/API.md)
 
