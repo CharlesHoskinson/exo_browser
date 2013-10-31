@@ -33,5 +33,4 @@ See the [ExoBrowser JS API Specification](https://github.com/spolu/exo_browser/b
 - Github: [https://github.com/spolu/exo_browser](https://github.com/spolu/exo_browser)
 - Mailing list: [exobrowser-dev@googlegroups.com](https://groups.google.com/forum/#!forum/exobrowser-dev)
 - IRC Channel: #exobrowser on Freenode
-- Twitter: [@ExoBrowser](https://twitter.com/ExoBrowser)
 
