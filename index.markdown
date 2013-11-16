@@ -12,8 +12,8 @@ See [The Experimentation Platform to Build a Next Generation Browser](http://bre
 
 ### Downloads
 
-- *OSX [ia32]* [exo_browser-v0.3.1599-osx-ia32.zip](http://bit.ly/19ODRsZ) (34.7 MB)
-- *Linux [x64]* [exo_browser-v0.3.1599-linux-x64.tar.gz](http://bit.ly/17pvJls) (44,7 MB)
+- *OSX [ia32]* [exo_browser-v0.4.1599-osx-ia32.zip](http://bit.ly/18cAfBV) (34,8 MB)
+- *Linux [x64]* [exo_browser-v0.4.1599-linux-x64.tar.gz](http://bit.ly/HV6hbU) (42,8 MB)
 
 See the [Downloads]({{ site.baseurl }}/downloads) page for Known Issues.
 
