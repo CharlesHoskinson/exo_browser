@@ -14,9 +14,9 @@ title: "ExoBrowser Downloads"
 - Antialiasing
 - GTK Icon API
 
-### Known Issues v0.3.1599
+### Known Issues
 
-- see https://github.com/breach/exo_browser/issues
+- see the [GitHub Issues](https://github.com/breach/exo_browser/issues)
 
 
 ### Older Versions
