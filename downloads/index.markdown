@@ -5,6 +5,14 @@ title: "ExoBrowser Downloads"
 - *OSX [ia32]* [exo_browser-v0.4.1599-osx-ia32.zip](http://bit.ly/18cAfBV) (34,8 MB)
 - *Linux [x64]* [exo_browser-v0.4.1599-linux-x64.tar.gz](http://bit.ly/HV6hbU) (42,8 MB)
 
+### Release Notes
+
+- Page Zoom API
+- Window Title & Context Menu API
+- DevTools API
+- File Upload/Download UI
+- Antialiasing
+- GTK Icon API
 
 ### Known Issues v0.3.1599
 
